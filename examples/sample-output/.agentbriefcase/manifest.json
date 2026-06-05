@@ -1,0 +1,58 @@
+{
+  "root": "C:\\Users\\luowe\\Documents\\github开源1\\examples\\fixture-repo",
+  "name": "fixture-app",
+  "generatedAt": "2026-06-05T02:20:38.333Z",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 86
+    },
+    {
+      "path": "package.json",
+      "size": 244
+    },
+    {
+      "path": "src/main.ts",
+      "size": 45
+    }
+  ],
+  "packageManagers": [],
+  "frameworks": [
+    "React",
+    "Vite",
+    "Vitest"
+  ],
+  "languages": [
+    "Markdown",
+    "TypeScript"
+  ],
+  "commands": [
+    {
+      "name": "build",
+      "command": "npm run build",
+      "confidence": "high"
+    },
+    {
+      "name": "test",
+      "command": "npm test",
+      "confidence": "high"
+    },
+    {
+      "name": "lint",
+      "command": "npm run lint",
+      "confidence": "high"
+    }
+  ],
+  "risks": [
+    {
+      "id": "missing-lockfile",
+      "severity": "medium",
+      "title": "Package lockfile is missing",
+      "detail": "Without a lockfile, installs may differ across developers and agents."
+    }
+  ],
+  "keyFiles": [
+    "README.md",
+    "package.json"
+  ]
+}

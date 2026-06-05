@@ -1,0 +1,48 @@
+{
+  "name": "agentbriefcase",
+  "version": "0.1.0",
+  "description": "Context diet CLI for AI coding agents.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luoowei/agentbriefcase.git"
+  },
+  "homepage": "https://github.com/luoowei/agentbriefcase#readme",
+  "bugs": {
+    "url": "https://github.com/luoowei/agentbriefcase/issues"
+  },
+  "bin": {
+    "agentbriefcase": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "docs/README.zh-CN.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "dev": "tsx src/cli.ts"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "codex",
+    "copilot",
+    "claude",
+    "cursor",
+    "context",
+    "context-engineering",
+    "agents-md",
+    "cli"
+  ],
+  "author": "luoowei",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vitest": "^4.1.8"
+  }
+}
