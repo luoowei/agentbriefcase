@@ -26,7 +26,7 @@ Instead of dumping your whole repo into context, it generates a small AGENTS.md 
 Try:
 
 ```bash
-npx github:luoowei/agentbriefcase --lang both
+npm exec --yes --package=https://github.com/luoowei/agentbriefcase/archive/refs/heads/main.tar.gz -c "agentbriefcase --lang both"
 ```
 
 Repo: https://github.com/luoowei/agentbriefcase
@@ -60,7 +60,7 @@ I kept seeing agents make avoidable mistakes because they read stale docs or hug
 It is intentionally small: no runtime dependencies, no cloud service, no LLM call.
 
 ```bash
-npx github:luoowei/agentbriefcase --lang both
+npm exec --yes --package=https://github.com/luoowei/agentbriefcase/archive/refs/heads/main.tar.gz -c "agentbriefcase --lang both"
 ```
 
 I would love feedback on which repo signals should be detected next.
@@ -82,7 +82,7 @@ Agent 经常不是不会写代码，而是开局上下文太乱：README 过期�
 运行：
 
 ```bash
-npx github:luoowei/agentbriefcase --lang both
+npm exec --yes --package=https://github.com/luoowei/agentbriefcase/archive/refs/heads/main.tar.gz -c "agentbriefcase --lang both"
 ```
 
 GitHub: https://github.com/luoowei/agentbriefcase

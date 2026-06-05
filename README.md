@@ -5,7 +5,7 @@
 Context diet CLI for AI coding agents. AgentBriefcase scans a repository and generates a small, source-grounded context pack so Codex, GitHub Copilot, Claude Code, Cursor, and other coding agents start with facts instead of guesswork.
 
 ```bash
-npx github:luoowei/agentbriefcase --lang both
+npm exec --yes --package=https://github.com/luoowei/agentbriefcase/archive/refs/heads/main.tar.gz -c "agentbriefcase --lang both"
 ```
 
 ## Why
@@ -27,7 +27,7 @@ Use `--lang both` to generate English and Simplified Chinese context files with 
 Run directly from GitHub:
 
 ```bash
-npx github:luoowei/agentbriefcase
+npm exec --yes --package=https://github.com/luoowei/agentbriefcase/archive/refs/heads/main.tar.gz -c "agentbriefcase"
 ```
 
 Or install locally after cloning:

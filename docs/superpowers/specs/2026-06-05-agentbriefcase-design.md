@@ -13,7 +13,7 @@ The 2025 Stack Overflow Developer Survey shows high AI tool adoption but declini
 The MVP provides one command:
 
 ```bash
-npx github:luoowei/agentbriefcase
+npm exec --yes --package=https://github.com/luoowei/agentbriefcase/archive/refs/heads/main.tar.gz -c "agentbriefcase"
 ```
 
 It scans the current repository and writes:
